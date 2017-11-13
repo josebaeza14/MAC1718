@@ -1,0 +1,1 @@
+integral f a b t = sum[(f x) * t | x <- [a, a+t..b-t]]
